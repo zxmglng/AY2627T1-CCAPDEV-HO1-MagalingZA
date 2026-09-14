@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Favorites</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1>My Favorites</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="hobbies.html">Hobbies</a> |
+            <a href="favorites.html">Favorites</a> 
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>How Well Do You Think You Know Me?</h2>
+            <img src="images/Meme1.jpg" alt="Picture of a dog" height="250"width="250">
+            <p>Before I reveal some of my favorite things, try guessing first what you think I would choose!</p>
+        </section>
+        <hr>
+
+        <!-- THIS OR THAT FORM :) -->
+         <section id="form">
+            <h2>This or That?</h2>
+
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <p>1. Do you think I'm more of a...</p>
+                <input type="radio" id="morning" name="time" value="morning">
+                <label for="morning">Morning Person</label>
+                <br>
+                <input type="radio" id="night" name="time" value="night">
+                <label for="night">Night Person</label>
+                <br><br>
+
+                <p>2. Which comfort food do you think I'd choose first?</p>
+                <input type="radio" id="chicken" name="comfort" value="chicken">
+                <label for="chicken">Fried Chicken</label>
+                <br>
+                <input type="radio" id="sushi" name="comfort" value="sushi">
+                <label for="sushi">Sushi</label>
+                <br>
+                <input type="radio" id="ramen" name="comfort" value="ramen">
+                <label for="ramen">Ramen</label>
+                <br>
+                <input type="radio" id="siomai" name="comfort" value="siomai">
+                <label for="siomai">Siomai</label>
+                <br><br>
+
+                <label for="color">3. What color do you think I like the most?</label>
+                <br><br>
+                <select id="color" name="color" required>
+                    <option value="">--Choose a color--</option>
+                    <option value="pink">Pink</option>
+                    <option value="purple">White</option>
+                    <option value="blue">Brown</option>
+                    <option value="green">Black</option>
+                </select>
+                <br><br>
+
+                <p>4. Which Studio Ghibli movie do you think I'd pick?</p>
+                <input type="radio" id="howl" name="ghibli" value="howls-moving-castle">
+                <label for="howl">Howl's Moving Castle</label>
+                <br>
+                <input type="radio" id="spirited" name="ghibli" value="spirited-away">
+                <label for="spirited">Spirited Away</label>
+                <br><br>
+
+                <label for="music">5. What music genre do you think I listen to the most?</label>
+                <br><br>
+                <select id="music" name="music">
+                    <option value="">--Choose a genre--</option>
+                    <option value="pop">Pop</option>
+                    <option value="rnb">R&B</option>
+                    <option value="kpop">K-Pop</option>
+                    <option value="opm">OPM</option>
+                </select>
+                <br><br>
+
+                <p>6. Which Filipino comfort dish do you think I'd choose?</p>
+                <input type="radio" id="adobo" name="filipino" value="chicken-adobo">
+                <label for="adobo">Chicken Adobo</label>
+                <br>
+                <input type="radio" id="sisig" name="filipino" value="pork-sisig">
+                <label for="sisig">Pork Sisig</label>
+                <br>
+                <input type="radio" id="sinigang" name="filipino" value="pork-sinigang">
+                <label for="sinigang">Pork Sinigang</label>
+                <br><br>
+
+                <p>7. What sounds more like my kind of night?</p>
+                <input type="radio" id="binge" name="night" value="binge-watching">
+                <label for="binge">Binge Watching a K-Drama</label>
+                <br>
+                <input type="radio" id="playlist" name="night" value="cozy-playlist">
+                <label for="playlist">Listening to a Cozy Playlist</label>
+                <br><br>
+
+                <p>8. Which would I probably enjoy more?</p>
+                <input type="radio" id="shopping-trip" name="travel-style" value="shopping">
+                <label for="shopping-trip">Shopping around a city</label>
+                <br>
+                <input type="radio" id="scenery-trip" name="travel-style" value="scenery">
+                <label for="scenery-trip">Exploring scenic places</label>
+                <br><br>
+
+                <p>9. Which sounds more like me?</p>
+                <input type="radio" id="dress-up" name="getting-ready" value="dress-up">
+                <label for="dress-up">Planning an outfit</label>
+                <br>
+                <input type="radio" id="makeup" name="getting-ready" value="makeup">
+                <label for="makeup">Doing my makeup</label>
+                <br><br>
+
+                <p>10. Which of these do you think I'd happily spend hours doing? You can choose more than one answer.</p>
+                <input type="checkbox" id="taking-pictures" name="activities" value="taking-pictures">
+                <label for="taking-pictures">Taking pictures</label>
+                <br>
+                <input type="checkbox" id="looking-for-squishies" name="activities" value="squishies">
+                <label for="looking-for-squishies">Looking for cute squishies</label>
+                <br>
+                <input type="checkbox" id="watching-ghibli" name="activities" value="ghibli">
+                <label for="watching-ghibli">Watching Studio Ghibli</label>
+                <br>
+                <input type="checkbox" id="food-trip" name="activities" value="food-trip">
+                <label for="food-trip">Going on a food trip</label>
+                <br><br>
+
+                <label for="confidence">How confident are you about your answers?</label>
+                <br>
+                <input type="range" id="confidence" name="confidence" min="0" max="10">
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+         </section>
+         <hr>
+
+         <section id="answers">
+            <h2>My Actual Favorites Revealed!</h2>
+            <p>Now that you've made your guesses, here are my actual favorites! How many of your guesses were correct?</p>
+            <img src="images/Meme2.jpg" alt="Picture of a dog" height="250"width="250">
+            <br><br>
+
+            <table>
+                <tr>
+                    <td><strong>Category</strong></td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td><strong>My Actual Favorite</strong></td>
+                </tr>
+
+                <tr>
+                    <td>Time of Day:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>Night Person</td>
+                </tr>
+
+                <tr>
+                    <td>Comfort Food:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>Ramen</td>
+                </tr>
+
+                <tr>
+                    <td>Color:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>White</td>
+                </tr>   
+
+                <tr>
+                    <td>Studio Ghibli Movie:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>Howl's Moving Castle</td>
+                </tr>
+
+                <tr>
+                    <td>Music Genre:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>Pop</td>
+                </tr>   
+
+                <tr>
+                    <td>Filipino Comfort Dish:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>Pork Sinigang</td>
+                </tr>
+
+                <tr>
+                    <td>Kind of Night:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>Listening to a Cozy Playlist</td>
+                </tr>
+
+                <tr>
+                    <td>Travel Style:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>Exploring scenic places</td>
+                </tr>
+
+                <tr>
+                    <td>Getting Ready:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>Planning an outfit</td>
+                </tr>
+
+                <tr>
+                    <td>Activities:</td>
+                    <td>&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>Taking pictures, Looking for cute squishies, Watching Studio Ghibli, Going on a food trip</td>
+                </tr>
+            </table>
+
+         </section>
+
+         <section id="reflection">
+            <h2>Reflection</h2>
+            <p>It was fun to see how well you know me! I hope you enjoyed this little guessing game and learned a bit more about my favorites. 
+                <br>Feel free to share your guesses with me and let's see how many of them were correct!
+            </p>

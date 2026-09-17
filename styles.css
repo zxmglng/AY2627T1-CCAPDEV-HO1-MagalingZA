@@ -19,7 +19,7 @@ header h1 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 40px;
     font-style: italic;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin: 0;
 }
 
@@ -55,7 +55,7 @@ h2 {
     color: #753d01;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     border-bottom: 3px solid #b4834f;
     margin-top: 0;
     margin-bottom: 25px;

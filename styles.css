@@ -200,6 +200,10 @@ td:first-child {
     text-align: center;
 }
 
+#answers, #song {
+    text-align: center;
+}
+
 footer {
     background-color: #f4b0ba;
     text-align: center;

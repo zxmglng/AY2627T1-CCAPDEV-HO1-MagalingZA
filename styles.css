@@ -1,6 +1,6 @@
 body {
-    background-color: #FFF0F5;
-    color: #7B3F00;
+    background-color: #faedf1;
+    color: #753d01;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 1.8;
@@ -8,17 +8,33 @@ body {
 }
 
 header {
-    background-color: #FFB6C1;
+    background-color: #f4b0ba;
     text-align: center;
     padding: 20px;
     border-bottom: 4px solid #7B3F00;
 }
 
 header h1 {
-    color: #8f5f67;
+    color: #753d01;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 40px;
     font-style: italic;
     letter-spacing: 2px;
     margin: 0;
 }
+
+nav {
+    background-color: #f3d2e0; 
+    padding: 10px;
+}
+
+nav a {
+    color:#753d01;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    color:#db3379;
+}
+

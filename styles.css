@@ -1,11 +1,24 @@
 body {
     background-color: #FFF0F5;
     color: #7B3F00;
-    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 1.8;
     margin: 0;
 }
 
+header {
+    background-color: #FFB6C1;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #7B3F00;
+}
 
-
+header h1 {
+    color: #8f5f67;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 0;
+}

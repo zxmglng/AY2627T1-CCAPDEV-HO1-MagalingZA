@@ -82,6 +82,11 @@ img {
     margin: 10px 0;
 }
 
+video {
+    display: block;
+    margin: 10px auto;
+}
+
 audio {
     margin: 10px 0;
 }
@@ -133,9 +138,21 @@ table {
     margin: 20px 0;
 }
 
-td {
-    padding: 10px;
+th {
+    background-color: #efd4da;
+    color: #753d01;
     text-align: left;
+    padding: 15px;
+}
+
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 2px solid #c9968f;
+}
+
+tr:last-child td {
+    border-bottom: none;
 }
 
 table tr:first-child {
@@ -144,3 +161,59 @@ table tr:first-child {
     font-family: Georgia, "Times New Roman", serif;
 }
 
+th:first-child,
+td:first-child {
+    width: 40%;
+    border-right: 2px solid #c9968f;
+}
+
+#intro {
+    background-color: #f9e6ed;
+    text-align: center;
+}
+
+#about {
+    background-color: #f9e6ed;
+    text-align: center;
+}
+
+#travel {
+    border-left: 6px solid #d998a5;
+}
+
+
+#photos {
+    border-left: 6px solid #c98f87;
+}
+
+
+#dancing {
+    border-left: 6px solid #dda9b4;
+}
+
+
+#others {
+    border-left: 6px solid #b9897d;
+}
+
+#travel p, #photos p, #dancing p, #others p {
+    text-align: center;
+}
+
+footer {
+    background-color: #f4b0ba;
+    text-align: center;
+    padding: 8px;
+    border-top: 4px solid #7B3F00;
+}
+
+footer p {
+    color: #fffafa;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    margin: 0;
+}
+
+main > p {
+    margin: 25px;
+}

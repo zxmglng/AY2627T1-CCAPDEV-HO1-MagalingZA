@@ -29,7 +29,7 @@ nav {
 }
 
 nav a {
-    color:#753d01;
+    color:#b4834f;
     text-decoration: none;
     display: inline-block;
 }
@@ -46,7 +46,7 @@ main {
 
 section {
     background-color: #f9e6ed;
-    padding: 20px;
+    padding: 30px;
     margin: 25px; 
     border: 3px solid #f4b0ba;
 }
@@ -56,7 +56,10 @@ h2 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 30px;
     letter-spacing: 2px;
-    border-bottom: 2px dotted #7B3F00;
+    border-bottom: 3px solid #b4834f;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
     
 }
 
@@ -78,3 +81,66 @@ img {
     height: auto;
     margin: 10px 0;
 }
+
+audio {
+    margin: 10px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 3px dotted #7B3F00;
+    margin: 40px 25px;
+}
+
+ul, ol {
+    background-color: #f9e6ed;
+    border-left: 4px solid #f4b0ba;
+    line-height: 1.8;
+    padding: 15px 20px 15px 50px;
+}
+
+li {
+    margin: 5px 0;  
+}
+
+main a {
+    color: #b4834f;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #db3379;
+}
+
+form {
+    padding: 25px;
+    margin-top: 20px;
+}
+
+form p {
+    color: #753d01;
+    margin-top: 25px;
+}
+
+label {
+    color: #753d01;
+}
+
+table {
+    background-color: #fffafa;
+    width: 100%;
+    border: 2px solid #c9968f;
+    margin: 20px 0;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:first-child {
+    background-color: #efd4da;
+    color: #753d01;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
